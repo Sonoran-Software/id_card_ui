@@ -1,0 +1,81 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#id-card {
+  background-image: url("img/id_background.jpeg");
+  border-radius: 23px;
+  margin: 5vh;
+  width: 50vh;
+  height: 30vh;
+}
+
+#top-info {
+  display: flex;
+  justify-content: space-evenly;
+  color: #223663;
+  border-bottom: solid 1px #1c2c52;
+  margin: 10px 0;
+}
+
+#state-name,
+#top-id {
+  margin: 0;
+  padding: 0;
+}
+
+#info-wrapper {
+  display: flex;
+  padding-left: 20px;
+}
+
+#id-photo {
+  height: 200px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+#id-photo img {
+  min-width: 200px;
+  min-height: 200px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#signature {
+  text-align: center;
+  font-family: "Pinyon Script", cursive;
+}
+
+#personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space;
+}
+
+#personal-info h2 {
+  padding: 0;
+  margin: 7px 5px;
+}
+
+#personal-info .info-text {
+  color: #234eb1;
+}
+
+#personal-info .number {
+  color: #df1313;
+}
